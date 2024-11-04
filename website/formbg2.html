@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page + Background Image</title>
+    <style>
+        body{
+           /* background-image: url(./cats.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           width: 100%;
+           background-position: center;
+           height:100vh; */
+           /* background-image: url(./stats-bg.jpg);
+           background-size: cover; */
+           align-items: center;
+           justify-content: center;
+           display: flex;
+           height:100vh;
+        }
+        .container{
+            display:flex;
+            box-shadow: 2px 2px 2px 2px black;
+            width: 70%;
+            border-radius: 10px;
+        }
+        .left{
+            margin-top: 12%;
+            padding: 6%;
+            box-shadow: 4px 4px 4px 6px lightgrey;
+            width:300px;
+            height:300px;
+            margin-left: 4%;
+            z-index: 1;
+            border-radius: 6px;
+        }
+        input[type=text], input[type=password]{
+            padding:10px;
+            width:90%;
+            border-radius: 3px;
+            margin-top: 2%;
+        }
+        .login{
+            padding:10px;
+            background: darkcyan;
+            color:white;
+            font-weight:900;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            border-radius: 3px;
+            width:100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="left">
+            <h2>Login</h2>
+            <p>Doesn't have an account yet? <a href="#">Sign Up</a></p>
+            <b>Email Address</b> <br>
+            <input type="text" placeholder="you@example.com"> <br>
+            <b>Password</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; <small><a href="#">Forget Password?</a></small> <br>
+            <input type="password" placeholder="Enter 6 characters or more"> <br>
+            <input type="checkbox">Remember me  <br>
+            <button class="login">LOGIN</button>  <br>
+            <div></div>or login with <div></div>  <br>
+            <button>Google</button> <button>Facebook</button>
+        </div>
+        <div class="right">
+            <img src="./man.jpg" alt="Developer">
+        </div>
+
+    </div>
+</body>
+</html>

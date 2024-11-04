@@ -1,0 +1,14 @@
+"{
+margin: 0;
+padding: 0;
+
+}
+
+.main{
+    width: 0;
+    background: linear-gradient(to top, rgb(0, 0, 0,0.5)50%, rgb(0, 0, 0,0.5)50%), url(c:\Users\USER\Downloads\images (1).jpg);
+    background: center;
+    background-size: cover;
+    height: 100px;
+}
+</style>
